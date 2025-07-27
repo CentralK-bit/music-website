@@ -1,21 +1,16 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website nghe nhạc</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
-    <h1>Trình phát nhạc đơn giản</h1>
+    <h1>My playlists</h1>
 
-    <audio id="player" src="song.mp3"></audio>
+    <audio id="player" controls></audio>
 
     <div class="controls">
+        <button id="prev">Prev</button>
         <button id="play">Play</button>
         <button id="pause">Pause</button>
+        <button id="next">Next</button>
     </div>
+
+    <p id="currentSong"></p>
 
     <script src="script.js"></script>
 </body>
-</html>
