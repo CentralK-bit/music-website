@@ -1,6 +1,6 @@
 // Danh sách bài hát
 const playlist = [
-    { file: "song1.mp3", title: "Hay con chiu dau kho thay em" },
+    { file: "song1.mp3", title: "Hay de con chiu dau kho thay em" },
     { file: "song2.mp3", title: "Baby anh doi co lau" },
     { file: "song3.mp3", title: "Band4band" }
   ];
